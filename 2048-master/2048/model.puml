@@ -1,0 +1,18 @@
+@startuml
+Class Grille{
+    mvUp()
+    mvDown()
+    mvLeft()
+    mvRight()
+}
+
+Class Tile{
+    label
+}
+
+Grille "1" *-- "1..*" Tile : contient
+
+
+
+
+@enduml
